@@ -8,7 +8,7 @@ import (
 )
 
 var Database *gorm.DB
-var urlDSN = "root:amd@009@tcp(localhost:3306)/godb"
+var urlDSN = "root:amd@009@tcp(localhost:3306)/godb?parseTime=true"
 var err error
 
 func DataMigration() {
